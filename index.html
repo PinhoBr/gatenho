@@ -3,27 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pode ser</title>
-    <script src="js/app.js" defer></script>
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>galeria emojis</title>
 </head>
 <body>
-    <bod id="bg">
-        <h1>tamagochi</h1>
-        <div id="pet">😸</div>
-        <div id="controles">
-            <button id="alimentarBtn">Alimentar🍆</button>
-            <button id="brincarBtn">Brincar🧸</button>
-            <button id="dormirBtn">Dormir💤</button>
-        </div>
-        <div>
-            <p>Pontos:  <span id="pontos"> 0 </span></p>
-        </div>
-        <div>
-            <h3>historico de açoes:</h3>
-            <ul id="historico"></ul>
-        </div>
+    <div class="container">
+    <select name="emojis" id="emojis">
+        <option value=" tristinho">😕</option>
+        <option value=" felizinho">😊</option>
+        <option value=" oclinho">😎</option>
+    </select>
+    <button id="adicionar">Adicionar Emoji</button>
+    <div id="emojiGalery"></div>
+</div>
 
-    </body>
 </body>
 </html>
